@@ -2,11 +2,24 @@
 name = "ai-powered-api-client"
 version = "0.1.0"
 description = "Client that reads OpenAPI specs and generates LLM tool definitions. Turns any API into a conversational interface."
+license = {text = "MIT"}
+authors = [{name = "Marlon Barreto", email = "mbarretot@hotmail.com"}]
+keywords = ["LLM", "OpenAPI", "AI-client", "tool-generation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+]
 requires-python = ">=3.11"
 dependencies = [
     "pydantic>=2.10.0",
     "httpx>=0.28.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/marlonbarreto-git/ai-powered-api-client"
+Repository = "https://github.com/marlonbarreto-git/ai-powered-api-client"
+Issues = "https://github.com/marlonbarreto-git/ai-powered-api-client/issues"
 
 [project.optional-dependencies]
 dev = [
