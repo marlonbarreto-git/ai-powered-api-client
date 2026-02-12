@@ -2,7 +2,7 @@ from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
 
-from api_client.caller import APICaller, APIRequest, APIResponse
+from api_client.caller import APICaller, APIResponse
 from api_client.models import ParameterDef, ToolDefinition
 
 

@@ -1,6 +1,6 @@
 """Tests for OpenAPI spec parser."""
 
-from api_client.models import ParameterDef, ToolDefinition
+from api_client.models import ToolDefinition
 from api_client.parser import OpenAPIParser
 
 SAMPLE_SPEC = {
